@@ -1,14 +1,15 @@
 <?php
 
-require_once 'class/Node.php';
+require_once 'Node.php';
+require_once 'Sequence.php';
 
-class Stack
+class Stack extends Sequence
 {
 
   /** @var Node */
   private $last;
 
-  private function isEmpty() : bool
+  protected function isEmpty() : bool
   {
 
     return $this->last == null;

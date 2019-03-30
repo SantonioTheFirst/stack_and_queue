@@ -15,4 +15,5 @@ echo $stack->get() . "\n";
 echo $stack->get() . "\n";
 
 echo $stack->get() . "\n";
+
 ?>
