@@ -5,7 +5,6 @@ require_once 'class/Sequence.php';
 require_once 'class/Stack.php';
 require_once 'class/Queue.php';
 
-
 $queue = new Queue();
 
 $queue->put('Ivan');
@@ -16,11 +15,7 @@ $queue->put('Petr');
 
 echo 'Queue:' . "\n";
 
-echo $queue->get() . "\n";
-
-echo $queue->get() . "\n";
-
-echo $queue->get() . "\n\n";
+$queue->printList();
 
 $stack = new Stack();
 
@@ -30,12 +25,8 @@ $stack->put('Fedor');
 
 $stack->put('Petr');
 
-echo 'Stack:' . "\n";
+echo "\n" . 'Stack:' . "\n";
 
-echo $stack->get() . "\n";
-
-echo $stack->get() . "\n";
-
-echo $stack->get() . "\n";
+$stack->printList();
 
 ?>

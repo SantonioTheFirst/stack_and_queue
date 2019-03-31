@@ -8,13 +8,6 @@ class Queue extends Sequence
   /** @var Node */
   private $last;
 
-  protected function isEmpty() : bool
-  {
-
-    return $this->head == null;
-
-  }
-
   public function get() : ?string //pop function
   {
 
@@ -47,6 +40,13 @@ class Queue extends Sequence
       $this->last = $node;
 
     }
+
+  }
+
+  protected function getFirstElement() : ?Node
+  {
+
+    return $this->head;
 
   }
 

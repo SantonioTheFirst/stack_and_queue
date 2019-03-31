@@ -6,13 +6,6 @@ class Stack extends Sequence
   /** @var Node */
   private $last;
 
-  protected function isEmpty() : bool
-  {
-
-    return $this->last == null;
-
-  }
-
   public function __construct()
   {
 
@@ -37,6 +30,13 @@ class Stack extends Sequence
   {
 
     $this->last = new Node($item, $this->last);
+
+  }
+
+  protected function getFirstElement() : ?Node
+  {
+
+    return $this->last;
 
   }
 
