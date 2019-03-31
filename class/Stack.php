@@ -1,8 +1,5 @@
 <?php
 
-require_once 'Node.php';
-require_once 'Sequence.php';
-
 class Stack extends Sequence
 {
 
