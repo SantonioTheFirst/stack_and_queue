@@ -5,7 +5,7 @@ require_once 'class/Sequence.php';
 require_once 'class/Stack.php';
 require_once 'class/Queue.php';
 
-$queue = new Queue();
+$queue = new \SantonioTheFirst\Structures\Queue();
 
 $queue->put('Ivan');
 
@@ -17,7 +17,7 @@ echo 'Queue:' . "\n";
 
 $queue->printList();
 
-$stack = new Stack();
+$stack = new \SantonioTheFirst\Structures\Stack();
 
 $stack->put('Ivan');
 
@@ -30,3 +30,5 @@ echo "\n" . 'Stack:' . "\n";
 $stack->printList();
 
 ?>
+
+

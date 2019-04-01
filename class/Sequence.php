@@ -1,5 +1,7 @@
 <?php
 
+namespace SantonioTheFirst\Structures;
+
 abstract class Sequence
 {
 

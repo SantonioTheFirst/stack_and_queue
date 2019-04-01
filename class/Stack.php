@@ -1,5 +1,7 @@
 <?php
 
+namespace SantonioTheFirst\Structures;
+
 class Stack extends Sequence
 {
 

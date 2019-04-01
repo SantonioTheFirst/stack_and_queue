@@ -1,5 +1,7 @@
 <?php
 
+namespace SantonioTheFirst\Structures;
+
 class Queue extends Sequence
 {
   /** @var Node */
