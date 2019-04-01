@@ -1,0 +1,11 @@
+{
+    "name": "santoniothefirst/qstack_and_queue",
+    "type": "library",
+    "authors": [
+        {
+            "name": "santoniothefirst",
+            "email": "santonio123@mail.ru"
+        }
+    ],
+    "require": {}
+}
