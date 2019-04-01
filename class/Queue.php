@@ -28,10 +28,12 @@ class Queue extends Sequence
 
     if($this->isEmpty())
     {
-      $this->last = $node;
-      $this->head = $node;
-    }
 
+      $this->last = $node;
+
+      $this->head = $node;
+
+    }
     else
     {
 

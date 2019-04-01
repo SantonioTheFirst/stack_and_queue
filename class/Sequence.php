@@ -6,16 +6,6 @@ abstract class Sequence
   /** @var iterable */
   protected $list;
 
-  public function printList() : void
-  {
-
-    $this->list = $this->getList();
-
-    foreach($this->list as $item)
-      echo $item . "\n";
-
-  }
-
   protected function isEmpty() : bool
   {
 
@@ -40,6 +30,17 @@ abstract class Sequence
       $currentElement = $currentElement->getNext();
 
     }
+
+  }
+
+  public function printList() : void
+  {
+
+    $this->list = $this->getList();
+
+    foreach($this->list as $item)
+
+      echo $item . "\n";
 
   }
 
