@@ -1,9 +1,6 @@
 <?php
 
-require_once 'class/Node.php';
-require_once 'class/Sequence.php';
-require_once 'class/Stack.php';
-require_once 'class/Queue.php';
+require_once 'vendor/autoload.php';
 
 $queue = new \SantonioTheFirst\Structures\Queue();
 
