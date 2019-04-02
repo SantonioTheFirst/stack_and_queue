@@ -8,7 +8,7 @@ abstract class Sequence
   /** @var iterable */
   protected $list;
 
-  protected function isEmpty() : bool
+  public function isEmpty() : bool
   {
 
     return $this->getFirstElement() == null;
