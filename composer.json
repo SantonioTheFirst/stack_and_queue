@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4":{
-            "SantonioTheFirst\\Structures\\" : "class/"
+            "SantonioTheFirst\\Structures\\" : "src/class/"
         }
     }
 }
