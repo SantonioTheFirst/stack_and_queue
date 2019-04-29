@@ -46,6 +46,21 @@ abstract class Sequence
 
   }
 
+  public function contains(string $item) : bool
+  {
+
+    $this->list = $this->getList();
+
+    foreach ($this->list as $current)
+
+      if($current == $item)
+
+        return true;
+
+    return false;
+
+  }
+
 }
 
 ?>
